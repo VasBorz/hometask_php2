@@ -1,6 +1,5 @@
 <?php
     include('Shop.class.php');
-
     //4. Придумать наследников класса из п.1. Чем они будут отличаться?
 
     class PopularProducts extends Shop{
