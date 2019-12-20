@@ -1,8 +1,9 @@
 <?php
-
+    //подключаємо подкласс
     include ('PopularProducts.class.php');
-
+    //создаем клас
     $obj = new PopularProducts('test','5','12', '10');
+    // вивод информации
     echo "<pre>";
     print_r( $obj->getResult()+$obj->getPopularProducts());
     echo "</pre>";
